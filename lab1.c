@@ -6,7 +6,7 @@ double max( double a, double b) {
 		return a;
         }
         else {
-		return b;
+	        return b;
         }
 }
 

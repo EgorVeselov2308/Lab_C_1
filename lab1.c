@@ -4,8 +4,7 @@ double max( double a, double b) {
 
 	if (a > b) {
 		return a;
-        }
-        else {
+        } else {
 	        return b;
         }
 }
@@ -19,8 +18,7 @@ double x, y, U;
         	for (y = 0.3; y <= 0.5; y += 0.1) {
         		if (x / y < 1) {
                			U = max(log10(x + x / y), (cbrt(y) * (4 * x * x + 1)) / (3 * pow(cos(fabs(x - y)), 2)));
-            		}
-	                else{
+            		} else {
               			U = (tan(x * y) + 2.6) / (sqrt(sin(x)));
             		}
              	 	printf("x = %.1f, y = %.1f, U = %.1f\n", x, y, U);
